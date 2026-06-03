@@ -1625,6 +1625,36 @@
         "Description": "The event logging service encountered an error while processing an incoming event published from %1."
     },
     {
+        "Provider": "Microsoft-Windows-Eventlog",
+        "EventID": 1100,
+        "Description": "The event logging service has shut down."
+    },
+    {
+        "Provider": "Microsoft-Windows-Eventlog",
+        "EventID": 1101,
+        "Description": "Audit events have been dropped by the transport."
+    },
+    {
+        "Provider": "Microsoft-Windows-Eventlog",
+        "EventID": 1102,
+        "Description": "The audit log was cleared."
+    },
+    {
+        "Provider": "Microsoft-Windows-Eventlog",
+        "EventID": 1104,
+        "Description": "The security log is now full."
+    },
+    {
+        "Provider": "Microsoft-Windows-Eventlog",
+        "EventID": 1105,
+        "Description": "Event log automatic backup."
+    },
+    {
+        "Provider": "Microsoft-Windows-Eventlog",
+        "EventID": 1108,
+        "Description": "The event logging service encountered an error while processing an incoming event."
+    },
+    {
         "Provider": "Microsoft-Windows-Sysmon",
         "EventID": 1,
         "Description": "Process Create"

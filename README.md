@@ -243,6 +243,9 @@ Records missing a top-level `.Event` field are skipped and logged:
 - Stage 2 loads all records into memory via `[inputs]`. For very large files (millions of records), consider splitting first.
 - `EventDescription` coverage depends on the master file and which providers were included in `generate_lookup.ps1`.
 
+## Reference
+https://claude.ai/chat/2e87535e-e946-465a-bec9-e2eaa87624b9
+
 ---
 
 ## License

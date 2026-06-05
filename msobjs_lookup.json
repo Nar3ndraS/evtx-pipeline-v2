@@ -1,0 +1,750 @@
+﻿[
+    {
+        "Code":  "%%1537",
+        "Description":  "DELETE"
+    },
+    {
+        "Code":  "%%1538",
+        "Description":  "READ_CONTROL"
+    },
+    {
+        "Code":  "%%1539",
+        "Description":  "WRITE_DAC"
+    },
+    {
+        "Code":  "%%1540",
+        "Description":  "WRITE_OWNER"
+    },
+    {
+        "Code":  "%%1541",
+        "Description":  "SYNCHRONIZE"
+    },
+    {
+        "Code":  "%%1542",
+        "Description":  "ACCESS_SYS_SEC"
+    },
+    {
+        "Code":  "%%1543",
+        "Description":  "MAX_ALLOWED"
+    },
+    {
+        "Code":  "%%1603",
+        "Description":  "Assign Primary Token Privilege"
+    },
+    {
+        "Code":  "%%1604",
+        "Description":  "Lock Memory Privilege"
+    },
+    {
+        "Code":  "%%1605",
+        "Description":  "Increase Memory Quota Privilege"
+    },
+    {
+        "Code":  "%%1606",
+        "Description":  "Unsolicited Input Privilege"
+    },
+    {
+        "Code":  "%%1607",
+        "Description":  "Trusted Computer Base Privilege"
+    },
+    {
+        "Code":  "%%1608",
+        "Description":  "Security Privilege"
+    },
+    {
+        "Code":  "%%1609",
+        "Description":  "Take Ownership Privilege"
+    },
+    {
+        "Code":  "%%1610",
+        "Description":  "Load/Unload Driver Privilege"
+    },
+    {
+        "Code":  "%%1611",
+        "Description":  "Profile System Privilege"
+    },
+    {
+        "Code":  "%%1612",
+        "Description":  "Set System Time Privilege"
+    },
+    {
+        "Code":  "%%1613",
+        "Description":  "Profile Single Process Privilege"
+    },
+    {
+        "Code":  "%%1614",
+        "Description":  "Increment Base Priority Privilege"
+    },
+    {
+        "Code":  "%%1615",
+        "Description":  "Create Pagefile Privilege"
+    },
+    {
+        "Code":  "%%1616",
+        "Description":  "Create Permanent Object Privilege"
+    },
+    {
+        "Code":  "%%1617",
+        "Description":  "Backup Privilege"
+    },
+    {
+        "Code":  "%%1618",
+        "Description":  "Restore From Backup Privilege"
+    },
+    {
+        "Code":  "%%1619",
+        "Description":  "Shutdown System Privilege"
+    },
+    {
+        "Code":  "%%1620",
+        "Description":  "Debug Privilege"
+    },
+    {
+        "Code":  "%%1621",
+        "Description":  "View or Change Audit Log Privilege"
+    },
+    {
+        "Code":  "%%1622",
+        "Description":  "Change Hardware Environment Privilege"
+    },
+    {
+        "Code":  "%%1623",
+        "Description":  "Change Notify (and Traverse) Privilege"
+    },
+    {
+        "Code":  "%%1624",
+        "Description":  "Remotely Shut System Down Privilege"
+    },
+    {
+        "Code":  "%%1792",
+        "Description":  "\u003cvalue changed, but not displayed\u003e"
+    },
+    {
+        "Code":  "%%1793",
+        "Description":  "\u003cvalue not set\u003e"
+    },
+    {
+        "Code":  "%%1794",
+        "Description":  "\u003cnever\u003e"
+    },
+    {
+        "Code":  "%%1795",
+        "Description":  "Enabled"
+    },
+    {
+        "Code":  "%%1796",
+        "Description":  "Disabled"
+    },
+    {
+        "Code":  "%%1797",
+        "Description":  "All"
+    },
+    {
+        "Code":  "%%1798",
+        "Description":  "None"
+    },
+    {
+        "Code":  "%%1799",
+        "Description":  "Audit Policy query/set API Operation"
+    },
+    {
+        "Code":  "%%1800",
+        "Description":  "\u003cValue change auditing for this registry type is not supported\u003e"
+    },
+    {
+        "Code":  "%%1801",
+        "Description":  "Granted by"
+    },
+    {
+        "Code":  "%%1802",
+        "Description":  "Denied by"
+    },
+    {
+        "Code":  "%%1803",
+        "Description":  "Denied by Integrity Policy check"
+    },
+    {
+        "Code":  "%%1804",
+        "Description":  "Granted by Ownership"
+    },
+    {
+        "Code":  "%%1805",
+        "Description":  "Not granted"
+    },
+    {
+        "Code":  "%%1806",
+        "Description":  "Granted by NULL DACL"
+    },
+    {
+        "Code":  "%%1807",
+        "Description":  "Denied by Empty DACL"
+    },
+    {
+        "Code":  "%%1808",
+        "Description":  "Granted by NULL Security Descriptor"
+    },
+    {
+        "Code":  "%%1809",
+        "Description":  "Unknown or unchecked"
+    },
+    {
+        "Code":  "%%1810",
+        "Description":  "Not granted due to missing"
+    },
+    {
+        "Code":  "%%1811",
+        "Description":  "Granted by ACE on parent folder"
+    },
+    {
+        "Code":  "%%1812",
+        "Description":  "Denied by ACE on parent folder"
+    },
+    {
+        "Code":  "%%1813",
+        "Description":  "Granted by Central Access Rule"
+    },
+    {
+        "Code":  "%%1814",
+        "Description":  "NOT Granted by Central Access Rule"
+    },
+    {
+        "Code":  "%%1815",
+        "Description":  "Granted by parent folder\u0027s Central Access Rule"
+    },
+    {
+        "Code":  "%%1816",
+        "Description":  "NOT Granted by parent folder\u0027s Central Access Rule"
+    },
+    {
+        "Code":  "%%1817",
+        "Description":  "Unknown Type"
+    },
+    {
+        "Code":  "%%1818",
+        "Description":  "String"
+    },
+    {
+        "Code":  "%%1819",
+        "Description":  "Unsigned 64-bit Integer"
+    },
+    {
+        "Code":  "%%1820",
+        "Description":  "64-bit Integer"
+    },
+    {
+        "Code":  "%%1821",
+        "Description":  "FQBN"
+    },
+    {
+        "Code":  "%%1822",
+        "Description":  "Blob"
+    },
+    {
+        "Code":  "%%1823",
+        "Description":  "Sid"
+    },
+    {
+        "Code":  "%%1824",
+        "Description":  "Boolean"
+    },
+    {
+        "Code":  "%%1825",
+        "Description":  "True"
+    },
+    {
+        "Code":  "%%1826",
+        "Description":  "False"
+    },
+    {
+        "Code":  "%%1827",
+        "Description":  "Invalid"
+    },
+    {
+        "Code":  "%%1828",
+        "Description":  "an ACE too long to display"
+    },
+    {
+        "Code":  "%%1829",
+        "Description":  "a Security Descriptor too long to display"
+    },
+    {
+        "Code":  "%%1830",
+        "Description":  "Not granted to AppContainers"
+    },
+    {
+        "Code":  "%%1831",
+        "Description":  "..."
+    },
+    {
+        "Code":  "%%1832",
+        "Description":  "Identification"
+    },
+    {
+        "Code":  "%%1833",
+        "Description":  "Impersonation"
+    },
+    {
+        "Code":  "%%1840",
+        "Description":  "Delegation"
+    },
+    {
+        "Code":  "%%1841",
+        "Description":  "Denied by Process Trust Label ACE"
+    },
+    {
+        "Code":  "%%1842",
+        "Description":  "Yes"
+    },
+    {
+        "Code":  "%%1843",
+        "Description":  "No"
+    },
+    {
+        "Code":  "%%1844",
+        "Description":  "System"
+    },
+    {
+        "Code":  "%%1845",
+        "Description":  "Not Available"
+    },
+    {
+        "Code":  "%%1846",
+        "Description":  "Default"
+    },
+    {
+        "Code":  "%%1847",
+        "Description":  "DisallowMmConfig"
+    },
+    {
+        "Code":  "%%1848",
+        "Description":  "Off"
+    },
+    {
+        "Code":  "%%1849",
+        "Description":  "Auto"
+    },
+    {
+        "Code":  "%%1856",
+        "Description":  "Denied by Access Filter Ace"
+    },
+    {
+        "Code":  "%%1872",
+        "Description":  "REG_NONE"
+    },
+    {
+        "Code":  "%%1873",
+        "Description":  "REG_SZ"
+    },
+    {
+        "Code":  "%%1874",
+        "Description":  "REG_EXPAND_SZ"
+    },
+    {
+        "Code":  "%%1875",
+        "Description":  "REG_BINARY"
+    },
+    {
+        "Code":  "%%1876",
+        "Description":  "REG_DWORD"
+    },
+    {
+        "Code":  "%%1877",
+        "Description":  "REG_DWORD_BIG_ENDIAN"
+    },
+    {
+        "Code":  "%%1878",
+        "Description":  "REG_LINK"
+    },
+    {
+        "Code":  "%%1879",
+        "Description":  "REG_MULTI_SZ (New lines are replaced with *. A * is replaced with **)"
+    },
+    {
+        "Code":  "%%1880",
+        "Description":  "REG_RESOURCE_LIST"
+    },
+    {
+        "Code":  "%%1881",
+        "Description":  "REG_FULL_RESOURCE_DESCRIPTOR"
+    },
+    {
+        "Code":  "%%1882",
+        "Description":  "REG_RESOURCE_REQUIREMENTS_LIST"
+    },
+    {
+        "Code":  "%%1883",
+        "Description":  "REG_QWORD"
+    },
+    {
+        "Code":  "%%1904",
+        "Description":  "New registry value created"
+    },
+    {
+        "Code":  "%%1905",
+        "Description":  "Existing registry value modified"
+    },
+    {
+        "Code":  "%%1906",
+        "Description":  "Registry value deleted"
+    },
+    {
+        "Code":  "%%1920",
+        "Description":  "Sunday"
+    },
+    {
+        "Code":  "%%1921",
+        "Description":  "Monday"
+    },
+    {
+        "Code":  "%%1922",
+        "Description":  "Tuesday"
+    },
+    {
+        "Code":  "%%1923",
+        "Description":  "Wednesday"
+    },
+    {
+        "Code":  "%%1924",
+        "Description":  "Thursday"
+    },
+    {
+        "Code":  "%%1925",
+        "Description":  "Friday"
+    },
+    {
+        "Code":  "%%1926",
+        "Description":  "Saturday"
+    },
+    {
+        "Code":  "%%1936",
+        "Description":  "TokenElevationTypeDefault (1)"
+    },
+    {
+        "Code":  "%%1937",
+        "Description":  "TokenElevationTypeFull (2)"
+    },
+    {
+        "Code":  "%%1938",
+        "Description":  "TokenElevationTypeLimited (3)"
+    },
+    {
+        "Code":  "%%2048",
+        "Description":  "Account Enabled"
+    },
+    {
+        "Code":  "%%2049",
+        "Description":  "\u0027Home Directory Required\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2050",
+        "Description":  "\u0027Password Not Required\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2051",
+        "Description":  "\u0027Temp Duplicate Account\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2052",
+        "Description":  "\u0027Normal Account\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2053",
+        "Description":  "\u0027MNS Logon Account\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2054",
+        "Description":  "\u0027Interdomain Trust Account\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2055",
+        "Description":  "\u0027Workstation Trust Account\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2056",
+        "Description":  "\u0027Server Trust Account\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2057",
+        "Description":  "\u0027Don\u0027t Expire Password\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2058",
+        "Description":  "Account Unlocked"
+    },
+    {
+        "Code":  "%%2059",
+        "Description":  "\u0027Encrypted Text Password Allowed\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2060",
+        "Description":  "\u0027Smartcard Required\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2061",
+        "Description":  "\u0027Trusted For Delegation\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2062",
+        "Description":  "\u0027Not Delegated\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2063",
+        "Description":  "\u0027Use DES Key Only\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2064",
+        "Description":  "\u0027Don\u0027t Require Preauth\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2065",
+        "Description":  "\u0027Password Expired\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2066",
+        "Description":  "\u0027Trusted To Authenticate For Delegation\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2067",
+        "Description":  "\u0027Exclude Authorization Information\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2069",
+        "Description":  "\u0027Protect Kerberos Service Tickets with AES Keys\u0027 - Disabled"
+    },
+    {
+        "Code":  "%%2080",
+        "Description":  "Account Disabled"
+    },
+    {
+        "Code":  "%%2081",
+        "Description":  "\u0027Home Directory Required\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2082",
+        "Description":  "\u0027Password Not Required\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2083",
+        "Description":  "\u0027Temp Duplicate Account\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2084",
+        "Description":  "\u0027Normal Account\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2085",
+        "Description":  "\u0027MNS Logon Account\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2086",
+        "Description":  "\u0027Interdomain Trust Account\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2087",
+        "Description":  "\u0027Workstation Trust Account\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2088",
+        "Description":  "\u0027Server Trust Account\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2089",
+        "Description":  "\u0027Don\u0027t Expire Password\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2090",
+        "Description":  "Account Locked"
+    },
+    {
+        "Code":  "%%2091",
+        "Description":  "\u0027Encrypted Text Password Allowed\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2092",
+        "Description":  "\u0027Smartcard Required\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2093",
+        "Description":  "\u0027Trusted For Delegation\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2094",
+        "Description":  "\u0027Not Delegated\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2095",
+        "Description":  "\u0027Use DES Key Only\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2096",
+        "Description":  "\u0027Don\u0027t Require Preauth\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2097",
+        "Description":  "\u0027Password Expired\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2098",
+        "Description":  "\u0027Trusted To Authenticate For Delegation\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2099",
+        "Description":  "\u0027Exclude Authorization Information\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%2101",
+        "Description":  "\u0027Protect Kerberos Service Tickets with AES Keys\u0027 - Enabled"
+    },
+    {
+        "Code":  "%%4368",
+        "Description":  "Query directory"
+    },
+    {
+        "Code":  "%%4369",
+        "Description":  "Traverse"
+    },
+    {
+        "Code":  "%%4370",
+        "Description":  "Create object in directory"
+    },
+    {
+        "Code":  "%%4371",
+        "Description":  "Create sub-directory"
+    },
+    {
+        "Code":  "%%4384",
+        "Description":  "Query event state"
+    },
+    {
+        "Code":  "%%4385",
+        "Description":  "Modify event state"
+    },
+    {
+        "Code":  "%%4416",
+        "Description":  "ReadData (or ListDirectory)"
+    },
+    {
+        "Code":  "%%4417",
+        "Description":  "WriteData (or AddFile)"
+    },
+    {
+        "Code":  "%%4418",
+        "Description":  "AppendData (or AddSubdirectory or CreatePipeInstance)"
+    },
+    {
+        "Code":  "%%4419",
+        "Description":  "ReadEA"
+    },
+    {
+        "Code":  "%%4420",
+        "Description":  "WriteEA"
+    },
+    {
+        "Code":  "%%4421",
+        "Description":  "Execute/Traverse"
+    },
+    {
+        "Code":  "%%4422",
+        "Description":  "DeleteChild"
+    },
+    {
+        "Code":  "%%4423",
+        "Description":  "ReadAttributes"
+    },
+    {
+        "Code":  "%%4424",
+        "Description":  "WriteAttributes"
+    },
+    {
+        "Code":  "%%4432",
+        "Description":  "Query key value"
+    },
+    {
+        "Code":  "%%4433",
+        "Description":  "Set key value"
+    },
+    {
+        "Code":  "%%4434",
+        "Description":  "Create sub-key"
+    },
+    {
+        "Code":  "%%4435",
+        "Description":  "Enumerate sub-keys"
+    },
+    {
+        "Code":  "%%4436",
+        "Description":  "Notify about changes to keys"
+    },
+    {
+        "Code":  "%%4437",
+        "Description":  "Create Link"
+    },
+    {
+        "Code":  "%%4440",
+        "Description":  "Enable 64(or 32) bit application to open 64 bit key"
+    },
+    {
+        "Code":  "%%4441",
+        "Description":  "Enable 64(or 32) bit application to open 32 bit key"
+    },
+    {
+        "Code":  "%%4448",
+        "Description":  "Query mutant state"
+    },
+    {
+        "Code":  "%%4464",
+        "Description":  "Communicate using port"
+    },
+    {
+        "Code":  "%%4480",
+        "Description":  "Force process termination"
+    },
+    {
+        "Code":  "%%4481",
+        "Description":  "Create new thread in process"
+    },
+    {
+        "Code":  "%%4482",
+        "Description":  "Set process session ID"
+    },
+    {
+        "Code":  "%%4483",
+        "Description":  "Perform virtual memory operation"
+    },
+    {
+        "Code":  "%%4484",
+        "Description":  "Read from process memory"
+    },
+    {
+        "Code":  "%%4485",
+        "Description":  "Write to process memory"
+    },
+    {
+        "Code":  "%%4486",
+        "Description":  "Duplicate handle into or out of process"
+    },
+    {
+        "Code":  "%%4487",
+        "Description":  "Create a subprocess of process"
+    },
+    {
+        "Code":  "%%4488",
+        "Description":  "Set process quotas"
+    },
+    {
+        "Code":  "%%4489",
+        "Description":  "Set process information"
+    },
+    {
+        "Code":  "%%4490",
+        "Description":  "Query process information"
+    },
+    {
+        "Code":  "%%4491",
+        "Description":  "Set process termination port"
+    },
+    {
+        "Code":  "%%4496",
+        "Description":  "Control profile"
+    }
+]
